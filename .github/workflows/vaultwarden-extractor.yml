@@ -3,7 +3,7 @@ name: Extract and Release Vaultwarden Binaries
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* * */7 * *'  
+    - cron: '0 0 */7 * *'  
 
 permissions:
   contents: write
